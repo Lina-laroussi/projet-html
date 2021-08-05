@@ -3,17 +3,18 @@
   <head>
     
     
-
+      <link rel="stylesheet" href="css/style.css">
       <title>projet html</title>
   </head>
 
   <body>
 
+<header>
     <nav class="navbar">
       
-      <a href="#" class="logo"><span>C</span>ours</a>
+      <a href="#" class="logo" ><span>C</span>ours</a>
      
-      <ul >
+      <ul class="liste" id="lien1">
 
           <li><a href="#d">Définition</a></li>
           <li><a href="#l">Les sites statiques et les sites dynamiques</a></li>
@@ -23,33 +24,54 @@
        </ul>
     </nav>
 
+    <div class="titre">
 
-    <section>
-      <h1 id="#" class="titre">Cours sur le développement Web</h1>
-      <h3 >Quelle est la différence entre le site statique et le site dynamique?</h3>
+    <h1 id="#" class="titre3" >Cours sur le développement Web</h1></br></br>
+    <h3 class="sous-titre" >Le site statique et le site dynamique</h3>
+
+    </div>
+  </header> 
+
+
+  <a href="#lien" ><img src="images/f.png" width="50px" height="50px" class="fleche"></a>
+
+  <main>
+
+<section class="contenu">
+     
+   <div class="video">
+      <iframe  
+      width="550px"
+      height="300px"
+
+      src="https://www.youtube.com/embed/AAfj6xHThvQ" id="d">
+      </iframe>
+   </div>   
 
       
-      <h2 id="d"><b>Définition:</b></h2>
-      <p class="para">  
+      
+      <p class="para" >  
         Le développement Web désigne de manière générale les tâches associées au développement </br>
         de sites Web destinés à être hébergés via un intranet ou Internet.</br> Le processus de
         développement web comprend, entre autres:
+       </p>
+       <div class="list">
         <ul type="square">
-           <li>la conception de sites web.</li> 
-           <li> le développement de contenu web. </li>
-           <li>l’élaboration de scripts côté client ou côté serveur. </li> 
-           <li>la configuration de la sécurité du réseau.</li> 
+           <li>la conception de sites web.</li> </br>
+           <li> le développement de contenu web. </li></br>
+           <li>l’élaboration de scripts côté client ou côté serveur. </li> </br>
+           <li>la configuration de la sécurité du réseau.</li> </br>
        </ul>
-      </p>
+      </div>
 
 
-    </section>
+    
 
-    <section>
-      <h2 id="l"><b>Les sites statiques et les sites dynamiques:</b></h2>
+    
+      <h1 id="l" class="title">La différence entre site statique et site dynamique </h1>
       
           <ol type="1">
-              <li><u>les sites statiques:</u></li>
+              <li class="title1"><u>les sites statiques:</u></li></br>
 
                <p>ce sont des sites réalisés uniquement à l'aide des langages HTML et CSS.</br>
                   Ils fonctionnent très bien, mais leur contenu ne peut pas être mis à jour </br>
@@ -57,9 +79,16 @@
                   le code source pour y ajouter des nouveautés.</p>
                  <p><b>html:</b>Son rôle est de gérer et organiser le contenu. </br>
                     <b>css:</b>son rôle est de gérer l'apparence de la page web </p>
-                     <img src="images/html et css.jpg" width="350px" height="350px"  class="image">
 
-              <li><u>les sites dynamiques:</u></li>
+                    <div class="photo">
+                       <div class="imagehtml"> <img src="images/html.png" width="70px" height="70px"  ></br></div></br>
+                       <h4 class="h">HTML</h4>
+                       <div class="imagecss"> <img src="images/css-3.png" width="70px" height="70px" > </br></div></br>
+                       <h4 class="c">CSS</h4>
+                    </div>
+
+                  </br></br>
+              <li class="title1"><u>les sites dynamiques:</u></li></br>
 
               <p>plus complexes, ils utilisent d'autres langages en plus de HTML et CSS</br>
                  tels que PHP et MySQL. Le contenu de ces sites web est dit « dynamique »</br>
@@ -71,16 +100,24 @@
                  <b>Mysql:</b> c'est ce qu'on appelle un SGBD (système de gestion de bases de données).</br>
                   Pour faire simple, son rôle est d'enregistrer des données de manière organisée afin </br>
                   de vous aider à les retrouver facilement plus tard. </br>
-                  <img src="images/php.png" width="350px" height="350px">
+                 <div class="image2"><img src="images/php.jpg" width="90px" height="90px" ></div> 
 
               </p>
 
+              <p> Pour savoir plus en détails sur les sites statiques et les sites dynamiques</br>
+                cliquez ici:</br>
+                <a  class="lien"
+                href="https://www.imedias.pro/cours-en-ligne/web-internet/site-internet-site-web/programmation-site-internet/ " title="cliquez">programmation site web.</a>
+            </p>
+
           </ol>
-        </section>
 
-         <section>
+        </br></br>
+       
 
-             <h2 id="t">Tableau récapitulatif:</h2>
+        
+
+             <h2 id="t" class="title">Tableau récapitulatif</h2>
              <table border="1">
                <tr>
                 <th>    </th>
@@ -89,7 +126,7 @@
 
               </tr>
               <tr>
-                <td><b>les langages de développement utilisés</b></td>
+                <td><b>les langages</br> de </br>développement</br> utilisés</b></td>
                 <td>html</br>
                      CSS</br>
                      java script</br>
@@ -104,46 +141,37 @@
              </table>
 
 
-          </section>
+         
+            <h2 id="c" class="title">Contact</h2>
+            
 
-        <section>
-          <p> Pour savoir en détails sur les sites statiques et les sites dynamiques</br>
-              cliquez ici:<a href="https://www.imedias.pro/cours-en-ligne/web-internet/site-internet-site-web/programmation-site-internet/ " title="cliquez">programmation site web.</a>
-          </p>
 
-          <p>Et veuillez regarder ce video explicatif qui est trés intéressant et
-             qui résume tout ce qui précede.</br></br>
-             <iframe 
-             width="350px"
-             height="350px"
-
-             src="https://www.youtube.com/embed/AAfj6xHThvQ">
-             </iframe>
-
-            </p>
-   
-          </section>
-
-          <section>
-            <h2 id="c">Contact</h2>
-             <p>Veuillez remplir ce formulaire si jamais vous avez une question ou une suggestion.</br>
-                                  je vous répondrai le plus vite possible
+          <div class="contactform">                   
                <form>
-                   
+                   <div class="input">
+                   </br>
+                   <p class="msg">Envoyer un Message</p>
+
                    <label for="nom">Nom*</label>  <input type="text" placeholder="Nom" id="nom"></br></br>
                    <label for="email">Email*</label>  <input type="text" placeholder="email" id="email"></br></br>
                    <label>Message*</label>   <textarea type="text" placeholder="Message" ></textarea></br></br>
-                   *  champs obligatoires.</br></br>
+                  <p class="p">*champs obligatoires</p></br></br>
+                   
+                    </div>
 
-                   <input type="submit" value="Envoyer">
+                    
+                   <input type="submit" value="Envoyer" class="btn"></br></br>
+                   
 
                </form>
-           </section>
+          </div>       
+   </section>
+   </main>
 
 <hr>
         <footer>
 
-              <a href="#" >let's go up top</a>
+          <a href="#lien1" id="lien"><img src="images/f1.png" width="50px" height="50px" class="fleche"></a>
 
         </footer>
 
